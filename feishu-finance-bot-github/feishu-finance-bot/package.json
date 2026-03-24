@@ -1,0 +1,13 @@
+{
+  "name": "feishu-finance-bot",
+  "version": "1.0.0",
+  "description": "飞书财报机器人 - 接入财务数据 MCP",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "mcp": "node src/mcp_server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.0"
+  }
+}

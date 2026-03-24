@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "alpha-vantage": {
+      "url": "https://mcp.alphavantage.co/mcp?apikey=YOUR_API_KEY_HERE"
+    },
+    "financial-report": {
+      "command": "node",
+      "args": ["./mcp-servers/financial-report/index.js"]
+    }
+  },
+  "imports": []
+}

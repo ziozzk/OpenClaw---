@@ -1,0 +1,10 @@
+{
+  "feishu": {
+    "appId": "你的 App ID",
+    "appSecret": "你的 App Secret"
+  },
+  "mcp": {
+    "serverCommand": "node /home/nio/.openclaw/workspace/feishu-finance-bot/src/mcp_server.js",
+    "timeout": 30000
+  }
+}
