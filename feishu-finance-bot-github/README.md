@@ -242,23 +242,10 @@ curl "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=AAPL&apikey
 mcporter call alpha-vantage.TOOL_CALL --args '{"tool_name": "GLOBAL_QUOTE", "arguments": {"symbol": "AAPL"}}'
 ```
 
----
-
-## ⚠️ 注意事项
-
-1. **API Key 安全**
-   - 不要将包含真实 API Key 的配置文件提交到 Git
-   - 使用 `config/mcporter.example.json` 作为模板
-
-2. **数据延迟**
-   - 股价数据有 15 分钟延迟
-   - 不适合实时交易决策
-
-3. **配额限制**
-   - 免费账户每日 25 次请求
-   - 建议缓存结果减少请求
+<img width="1525" height="1322" alt="image" src="https://github.com/user-attachments/assets/f6ee9859-a919-46bc-a539-c05f94f3d225" />
 
 ---
+
 
 ## 📚 文档
 
@@ -270,17 +257,6 @@ mcporter call alpha-vantage.TOOL_CALL --args '{"tool_name": "GLOBAL_QUOTE", "arg
 
 ---
 
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
-
----
 
 ## 📄 许可证
 
@@ -297,11 +273,3 @@ mcporter call alpha-vantage.TOOL_CALL --args '{"tool_name": "GLOBAL_QUOTE", "arg
 
 ---
 
-## 📞 联系方式
-
-- 项目地址：https://github.com/YOUR_USERNAME/feishu-finance-bot
-- 问题反馈：https://github.com/YOUR_USERNAME/feishu-finance-bot/issues
-
----
-
-*最后更新：2026-03-24*
